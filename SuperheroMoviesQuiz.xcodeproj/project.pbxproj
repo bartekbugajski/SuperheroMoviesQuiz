@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E326BC48229D0337003AB734 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E326BC47229D0337003AB734 /* WelcomeController.swift */; };
 		E348A5A3228137F700BFED30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E348A5A2228137F700BFED30 /* AppDelegate.swift */; };
 		E348A5A5228137F700BFED30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E348A5A4228137F700BFED30 /* ViewController.swift */; };
 		E348A5A8228137F700BFED30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E348A5A6228137F700BFED30 /* Main.storyboard */; };
@@ -18,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E348A59F228137F700BFED30 /* TopQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E326BC47229D0337003AB734 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		E348A59F228137F700BFED30 /* SuperheroMoviesQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperheroMoviesQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E348A5A2228137F700BFED30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E348A5A4228137F700BFED30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E348A5A7228137F700BFED30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +54,7 @@
 		E348A5A0228137F700BFED30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E348A59F228137F700BFED30 /* TopQuiz.app */,
+				E348A59F228137F700BFED30 /* SuperheroMoviesQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +69,7 @@
 				E348A5A2228137F700BFED30 /* AppDelegate.swift */,
 				E348A5A4228137F700BFED30 /* ViewController.swift */,
 				E348A5A6228137F700BFED30 /* Main.storyboard */,
+				E326BC47229D0337003AB734 /* WelcomeController.swift */,
 				E348A5AB228137FB00BFED30 /* LaunchScreen.storyboard */,
 				E3DD242322946EED002FEF8E /* UIButtonExtension.swift */,
 			);
@@ -76,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E348A59E228137F700BFED30 /* TopQuiz */ = {
+		E348A59E228137F700BFED30 /* SuperheroMoviesQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E348A5B1228137FB00BFED30 /* Build configuration list for PBXNativeTarget "TopQuiz" */;
+			buildConfigurationList = E348A5B1228137FB00BFED30 /* Build configuration list for PBXNativeTarget "SuperheroMoviesQuiz" */;
 			buildPhases = (
 				E348A59B228137F700BFED30 /* Sources */,
 				E348A59C228137F700BFED30 /* Frameworks */,
@@ -88,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = TopQuiz;
+			name = SuperheroMoviesQuiz;
 			productName = TopQuiz;
-			productReference = E348A59F228137F700BFED30 /* TopQuiz.app */;
+			productReference = E348A59F228137F700BFED30 /* SuperheroMoviesQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E348A59A228137F700BFED30 /* Build configuration list for PBXProject "TopQuiz" */;
+			buildConfigurationList = E348A59A228137F700BFED30 /* Build configuration list for PBXProject "SuperheroMoviesQuiz" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E348A59E228137F700BFED30 /* TopQuiz */,
+				E348A59E228137F700BFED30 /* SuperheroMoviesQuiz */,
 			);
 		};
 /* End PBXProject section */
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3DD242022943814002FEF8E /* Question.swift in Sources */,
+				E326BC48229D0337003AB734 /* WelcomeController.swift in Sources */,
 				E3DD242422946EED002FEF8E /* UIButtonExtension.swift in Sources */,
 				E3DD2422229438CA002FEF8E /* QuestionBank.swift in Sources */,
 				E348A5A5228137F700BFED30 /* ViewController.swift in Sources */,
@@ -329,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E348A59A228137F700BFED30 /* Build configuration list for PBXProject "TopQuiz" */ = {
+		E348A59A228137F700BFED30 /* Build configuration list for PBXProject "SuperheroMoviesQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E348A5AF228137FB00BFED30 /* Debug */,
@@ -338,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E348A5B1228137FB00BFED30 /* Build configuration list for PBXNativeTarget "TopQuiz" */ = {
+		E348A5B1228137FB00BFED30 /* Build configuration list for PBXNativeTarget "SuperheroMoviesQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E348A5B2228137FB00BFED30 /* Debug */,
